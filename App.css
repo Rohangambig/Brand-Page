@@ -1,0 +1,101 @@
+ .App
+ {
+    margin: 10px;
+ }
+ .nav
+ {
+     padding: 20px;
+     display: flex;
+     justify-content: space-between;
+ }
+ .All-li
+ {
+     display: flex;
+     justify-content: center;
+     flex-direction:row;
+     gap: 20px;
+ }
+ .All-li li{
+    list-style-type: none;
+    font-size: 20px;
+ }
+ .nav button{
+     width: 100px;
+     font-size: 15px;
+     color: white;
+     font-weight: bold;
+     background-color:  #D01C28;;
+     border: none;
+     border-radius: 20px;
+ }
+ .Container
+ {
+     display: flex;
+     justify-content: center;
+     padding: 50px;
+ }
+ .container1
+ {
+     width: 40%;
+ }
+ .container1 h1
+ {
+    font-size: 70px;
+    font-weight: bold;
+    width: 80%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+ }
+ .container1 p{
+     font-size:12px;
+     width: 60%;
+     font-weight: 400;
+     color: rgb(87, 86, 86);
+ }
+ .ButtonContainer
+ {
+    width: 45%;
+    padding: 20px;
+    padding-left: 0px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .ButtonContainer button
+ {
+     width: 100px;
+     padding:5px;
+     font-weight: 600;
+ }
+ .ButtonContainer button:first-child
+ {
+    background-color: #D01C28;;
+    border: none;
+    color: white;
+ }
+ .ButtonContainer button:nth-child(even)
+ {
+    background-color: transparent;
+    color: rgb(78, 78, 78);
+    border:2px solid rgb(134, 133, 133) ;
+ }
+ .container2
+ {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .container2 img{
+     width: 80%;
+ }
+ .Available 
+ {
+    display: flex;
+    flex-direction:column ;
+ }
+ .Available p{
+    color:black ;
+ }
+ .Available img{
+     width: 20px;
+     height: 20px;
+     margin-right: 10px;
+ }
