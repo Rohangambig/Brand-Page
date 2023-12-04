@@ -1,2 +1,3 @@
 # Brand-Page
-React js
+Try this only on laptop
+https://brandpage-react.netlify.app/
